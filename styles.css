@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Task List Styles */
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item:hover {
+  background-color: #f0f0f0;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Task Form Styles */
+.task-form {
+  margin-top: 20px;
+}
+
+.task-form input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.task-form button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #0056b3;
+}
